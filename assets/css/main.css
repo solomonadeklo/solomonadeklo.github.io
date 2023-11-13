@@ -1816,7 +1816,9 @@ body.is-preload #footer {
 .scaleimage {
   width: 20px;
 }
-
+.btn {
+  height: 500px;
+}
 .soloimg {
   width: 180px;
 }
