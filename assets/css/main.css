@@ -227,6 +227,10 @@ html {
   html {
     font-size: 10pt;
   }
+
+  .skills {
+    flex-direction: column;
+  }
 }
 
 body,
@@ -1806,18 +1810,16 @@ body.is-preload #footer {
 @media (min-width: 320px) and (max-width: 480px) {
   /* CSS */
   #iconss {
-    display: flex;
-    flex-direction: column;
-    opacity: 0;
+    margin-top: -2000px;
   }
-  .scaleimage {
-    width: 20px;
-  }
-  /**.scaleimage::before {
+}
+.scaleimage {
+  width: 20px;
+}
+/**.scaleimage::before {
     content: "\a";
     white-space: pre;
   }**/
-  #ico {
-    opacity: 1;
-  }
+#ico {
+  opacity: 1;
 }
