@@ -1816,6 +1816,10 @@ body.is-preload #footer {
 .scaleimage {
   width: 20px;
 }
+
+.soloimg {
+  width: 180px;
+}
 /**.scaleimage::before {
     content: "\a";
     white-space: pre;
