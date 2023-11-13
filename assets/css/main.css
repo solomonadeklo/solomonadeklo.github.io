@@ -1816,7 +1816,7 @@ body.is-preload #footer {
 .scaleimage {
   width: 20px;
 }
-.btn {
+.about-btn {
   height: 500px;
 }
 .soloimg {
@@ -1847,7 +1847,7 @@ body.is-preload #footer {
   margin: 20px;
   color: #fff;
   position: relative;
-  display: inline-block;
+  width: 300px;
 }
 
 .btn:active {
