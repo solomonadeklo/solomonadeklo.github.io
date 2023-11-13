@@ -119,6 +119,10 @@ body {
   border-radius: 200px;
 }
 
+.float {
+  float: right;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   /* CSS */
   #iconss {
