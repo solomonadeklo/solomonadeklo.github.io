@@ -119,6 +119,20 @@ body {
   border-radius: 200px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  #iconss {
+    margin-top: -2000px;
+  }
+
+  .btn {
+    height: 50px;
+    display: block;
+    font-size: 15px;
+    height: 400px;
+  }
+}
+
 ol,
 ul {
   list-style: none;
@@ -1807,12 +1821,6 @@ body.is-preload #footer {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) all 1s;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  /* CSS */
-  #iconss {
-    margin-top: -2000px;
-  }
-}
 .scaleimage {
   width: 20px;
 }
@@ -1842,7 +1850,7 @@ body.is-preload #footer {
 .btn {
   border-radius: 5px;
   padding: 15px 25px;
-  font-size: 22px;
+  font-size: 15px;
   text-decoration: none;
   margin: 20px;
   color: #fff;
