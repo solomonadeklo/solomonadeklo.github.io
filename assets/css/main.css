@@ -1846,7 +1846,6 @@ body.is-preload #footer {
   color: #fff;
   position: relative;
   display: inline-block;
-  word-wrap: normal;
 }
 
 .btn:active {
